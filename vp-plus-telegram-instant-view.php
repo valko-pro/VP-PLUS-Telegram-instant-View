@@ -2,11 +2,11 @@
 /**
  *
  * @wordpress-plugin
- * Plugin Name:       VP+ Telegram Instant View
- * Plugin URI:        http://vp-plus.top/plugins/vp-plus-telegram-instant-view
+ * Plugin Name:       VP Telegram Instant View
+ * Plugin URI:        http://valko.pro/plugins/vp-plus-telegram-instant-view
  * Description:       This plugin automatically generates a link for each entry to view in Telegram Instant View
- * Version:           1.0.0
- * Author:            VP+ Oleg Valko
+ * Version:           1.1
+ * Author:            Oleg Valko
  * Author URI:        http://valko.pro/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -25,7 +25,6 @@ function vptiv_load_plugin_textdomain() {
 }
 
 // Require files
-require_once plugin_dir_path( __FILE__ ) . 'admin/console-page.php';
 require_once plugin_dir_path( __FILE__ ) . 'admin/settings-page.php';
 
 // Display Telegram Link before the_content()
@@ -38,7 +37,7 @@ function vptiv_link( $content ) {
 		$text  = __( 'Copy link and paste to Telegram', 'vptiv' );
 		$url   = get_permalink();
 		$href  = "https://t.me/iv?url=$url&rhash=$rhash";
-		$style = 'background:#0088cc; color:#ffffff; padding:5px; border-radius:5px; display:inline-block;';
+		$style = 'style="background:#000; color:#fff; padding:5px; border-radius:5px; display:inline-block;"';
 		$style = apply_filters( 'vptiv_btn_style', $style );
 		
 		$content = $content . sprintf( '<a href="%s" class="vptiv-link"%s>%s</a>', $href, $style, $text );

@@ -4,7 +4,7 @@ $vptiv_page = 'vptiv.php';
 add_action( 'admin_menu', 'vptiv_option_menu' );
 function vptiv_option_menu(){
 	global $vptiv_page;
-	add_submenu_page('vp-plus-console', __('Telegram Instant View','vptiv'), __('Telegram Instant View','vptiv'), 'manage_options', $vptiv_page, 'vptiv_option_page'); 
+	add_menu_page(__('Telegram Instant View','vptiv'), __('Telegram Instant View','vptiv'), 'manage_options', $vptiv_page, 'vptiv_option_page', plugins_url( 'logo.png', __FILE__ ), 101); 
 }
 
 function vptiv_option_page(){
@@ -16,7 +16,7 @@ function vptiv_option_page(){
 			<li><?php _e('Create a template to instant view your site - <a href="http://instantview.telegram.org/my/" target="_blank">instantview.telegram.org/my</a>', 'vptiv') ?></li>
 			<li><?php _e('Enter the addresses of your site and create a template according to the documentation - <a href="http://instantview.telegram.org/docs" target="_blank">instantview.telegram.org/docs</a>', 'vptiv') ?></li>
 			<li><?php _e('Or order an individual template creation for your site - <a href="http://mailto:oleg@valko.pro" target="_blank">oleg@valko.pro</a>', 'vptiv') ?></li>
-			<li><?php _e('After creating the template on the page - <a href="http://instantview.telegram.org/my/" target="_blank">instantview.telegram.org/my</a>, click the button - VIEW IN TELEGRAM and copy the link. At the end of this link will be your RHASH code. You need to paste it into the settings below', 'vptiv') ?></li>
+			<li><?php _e('After creating the template o1n the page - <a href="http://instantview.telegram.org/my/" target="_blank">instantview.telegram.org/my</a>, click the button - VIEW IN TELEGRAM and copy the link. At the end of this link will be your RHASH code. You need to paste it into the settings below', 'vptiv') ?></li>
 		</ul>
 		<h2><?php _e('Step 2', 'vptiv') ?></h2>
 		<form method="post" enctype="multipart/form-data" action="options.php">

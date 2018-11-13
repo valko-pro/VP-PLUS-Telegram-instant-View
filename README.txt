@@ -5,7 +5,7 @@ Donate link: https://goo.gl/Q6NXgN
 Requires at least: 4.9
 Tested up to: 4.9
 Requires PHP: 5
-Stable tag: Tipton
+Stable tag: 1.1
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -53,7 +53,11 @@ I want to draw your attention to the fact that instant view links will work auto
 Contact us and we will definitely help you, or we will create it for you
 
 == Changelog == 
-= 1.0.0 =
+= 1.1 =
+* Сode optimization
+* Added filter for button design
+
+= 1 =
 * Release
 
 == Upgrade Notice ==
