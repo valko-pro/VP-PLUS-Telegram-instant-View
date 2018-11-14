@@ -1,4 +1,4 @@
-=== VP+ Telegram Instant View ===
+=== VP Telegram Instant View ===
 Contributors: olegvalko
 Tags: telegram, instant view, telegram
 Donate link: https://goo.gl/Q6NXgN
@@ -12,29 +12,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 This plugin automatically generates a link for each entry to view in Telegram Instant View
 
 == Description ==
-**VP+ Telegram Instant View** automatically generates a link for each entry to view in Telegram Instant View
+**VP Telegram Instant View** automatically generates a link for each entry to view in Telegram Instant View
 
 I want to draw your attention to the fact that instant view links will work automatically **after creating** a template on the official site 
 [Telegram Instant View](http://instantview.telegram.org/my/)
 
 
-**VP+ Telegram Instant View is aviable in:**
+**VP Telegram Instant View is aviable in:**
 
 - Ukrainian
 - English
 - Russian
 
-**VP+ Support:**
-[support@vp-plus.top](http://mailto:support@vp-plus.top) / [vp-plus.top](http://vp-plus.top)
-**VP+ Official Pages**
-[VP+ on Facebook](http://fb.me/vp.plus.top)
-[VP+ on Instagram](https://www.instagram.com/vp.plus.top/)
-[VP+ on Twitter](https://twitter.com/vp_plus_top)
-
 **Author this plugin:**
 [Oleg Valko](http://valko.pro)
 [Twitter](https://twitter.com/valko_pro)
-[Facebook](https://www.facebook.com/oleg.valko.pro)
+[Facebook](https://www.facebook.com/valko.pro)
 
 == Installation ==
 
@@ -61,7 +54,10 @@ Contact us and we will definitely help you, or we will create it for you
 * Release
 
 == Upgrade Notice ==
-* This is the first version
+
+= 1.1 =
+* Сode optimization
+* Added filter for button design
 
 == Screenshots ==
 
